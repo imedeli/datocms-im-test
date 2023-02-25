@@ -1,47 +1,90 @@
-# A Blog example using Astro and DatoCMS
+<h1 align=center>Bookworm Light Astro</h1>
+<p align=center>Bookworm Light is a feature-rich, minimal, highly customizable, easy-to-use free Astro blog theme. This theme is ideal for creating any type of blog website like tech, food, recipes, beauty, lifestyle, photography, travel, health, fitness, and more.</p>
+<h2 align="center"> <a target="_blank" href="https://bookworm-light-astro.vercel.app/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fbookworm-light-astro.vercel.app%2F&form_factor=desktop">Page Speed (100%)</a>
+</h2>
 
-This example showcases an Astro Blog using [DatoCMS](https://www.datocms.com/) as the data source.
-The purpose of this repo is to have a quick start reference that can be set up with the "one-click" button below.
+<p align=center>
+  <a href="https://github.com/withastro/astro/releases/tag/astro%402.0.11" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=ASTRO&message=2.0&color=000&logo=astro" />
+  </a>
 
-## Demo
+  <a href="https://github.com/themefisher/bookworm-light-astro/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/themefisher/bookworm-light-astro" alt="license"></a>
 
-Have a look at the end result live:
+  <img src="https://img.shields.io/github/languages/code-size/themefisher/bookworm-light-astro" alt="code size">
 
-### [https://blog-astro-no-clientside-js.vercel.app/](https://blog-astro-no-clientside-js.vercel.app/)
+  <a href="https://github.com/themefisher/bookworm-light-astro/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/themefisher/bigspring-light-astro" alt="contributors"></a>
+</p>
 
-## How to use
+![bookworm-light](https://demo.gethugothemes.com/thumbnails/bookworm-light.png)
 
-### Quick start
+## Key Features
 
-1. [Create an account on DatoCMS](https://datocms.com).
+- Multi-Author support
+- Google Page Speed score 100! (Desktop)
+- Supports Contact Form
+- Search Functionality
+- Related Posts Suggestion
+- Semantic HTML Document Structure
+- Custom Logo Support
+- Includes All SCSS Files
+- Image Optimized With Astro/image
 
-2. Make sure that you have set up the [Github integration on Vercel](https://vercel.com/docs/git/vercel-for-github).
+<!-- installation -->
+## Installation
 
-3. Let DatoCMS set everything up for you clicking this button:
+After downloading the template, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
 
-[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/projects/clone?repo=/marcelofinamorvieira/blog-astro-no-clientside-js)
+### Install prerequisites (once for a machine)
+
+- **Node Installation:** [Install node js](https://nodejs.org/en/download/) [Recommended LTS version]
 
 ### Local setup
 
-Once the setup of the project and repo is done, clone the repo locally.
+After successfully installing those dependencies, open this template with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
 
-#### Set up environment variables
+- Install dependencies
 
-In your DatoCMS' project, go to the **Settings** menu at the top and click **API tokens**.
-
-Then click **Read-only API token** and copy the token.
-
-Next, create the `.env` with your API token (which will be ignored by Git):
-
-```bash
-echo ASTRO_EXAMPLE_CMS_DATOCMS_API_TOKEN=<YOUR_API_TOKEN> >> .env
+```
+npm install
 ```
 
-#### Run your project locally
+- Run locally
 
-```bash
-npm install
+```
 npm run dev
 ```
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)!
+After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live-reload the browser when changes are saved.
+
+## Production Build
+
+After finishing all the customization, you can create a production build by running this command.
+
+```
+npm run build
+```
+
+<!-- reporting issue -->
+## Reporting Issues
+
+We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/themefisher/bookworm-light-astro/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/bookworm-light-astro/issues).
+
+
+<!-- licence -->
+## License
+
+Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+
+**Code License:** Released under the [MIT](https://github.com/themefisher/bookworm-light-astro/blob/main/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+
+## Hire Us
+
+Besides developing unique, blazing-fast Astro templates, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Astro.
+
+If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
+[Contact Page](https://themefisher.com/contact)**
